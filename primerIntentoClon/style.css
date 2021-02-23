@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 62.5%;
+    font-family:sans-serif;
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.header__left{
+    height: auto;
+    width: 70%;
+    /* background-color: black; */
+}
+.header__right{
+    /* background-color: rgb(0, 0, 0); */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.header__right p{
+    color: black;
+    inline-size: 2.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 1rem 0 0;
+}
+.header__right img{
+    width: 1.8rem;
+    margin: 0 0rem 0 0;
+
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Icono img{
+    padding: 3.6rem 2.4rem 2.6rem 2.4rem;
+}
+.buscador{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    margin-top: 2rem;
+    background-color: white;
+    background-image: url(../png/search\ icon.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 30px;
+    font-size: 1.6rem;
+    height: 3rem;
+    outline: none;
+    padding-inline-end: 40px;
+    padding-inline-start: 62px;
+    position: relative;
+    width: 70%;
+    border: thin black 1rem;
+    border-radius: 1.5rem;
+}
+.shortcuts{
+    margin: 2rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    height: calc(var(--row-count) * 128px);
+    width: calc(var(--content-width) + 12px);
+}
+
+.shortcuts2{
+    margin: 2rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    height: calc(var(--row-count) * 128px);
+    width: calc(var(--content-width) + 12px);
+}
+
+.shortcut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.shortcut img{
+    width: 50px;
+    border-radius: 0.5rem;
+    align-self: center;
+}
+.shortcut p{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
